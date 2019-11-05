@@ -1,0 +1,144 @@
+/**/
+
+.navbar {
+  overflow: hidden;
+  background:rgba(0, 0, 0, 0.6 );
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+
+.navbar .li-1-a{
+  float: left;
+display: block;
+color: white;
+
+text-align: center;
+padding: 30px 20px;
+text-decoration: none;
+font-size: 1.5rem;
+
+}
+.navbar .li-1-a:hover {
+  background:#ddd;
+  color: black;
+}
+/*==============================Registor on navigation bar css code=============================================*/
+.active-register-1{
+  background-color: #c93838;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/*========================Section 1 code=======================*/
+.hike-1{
+
+  margin-bottom: 100px;
+}
+
+
+body{
+margin: 0;
+background-image: url("https://thumbs.dreamstime.com/b/fitness-bodybuilding-concept-background-product-photograph-old-iron-dumbbells-grey-conrete-floor-gym-taken-107877270.jpg");
+background-repeat: no-repeat;
+background-size: 100% 905px;
+}
+
+.simple-form{
+max-width: 450px;
+border-radius:20px;
+margin: auto;
+background: rgba(0, 0, 0, 0.8);
+box-sizing: border-box;
+padding: 40px;
+color: #fff;
+margin-top: 100px
+marin-bottom:100px
+
+
+
+}
+
+h1{
+  text-align: center;
+}
+#registration{
+  width: 100%;
+
+  padding: 50px 0;
+
+}
+
+#button{
+  width: 100%;
+  padding: 12px 5px;
+  border-radius:5px;
+  background-color:rgba(0,0,0,0.10);
+  color: white;
+  box-sizing:border-box;
+    outline: none;
+    border-bottom: 1px dotted #fff;
+    margin: 5px;
+    font-weight: bold;
+
+
+}
+
+.phonecode{
+  outline: 0;
+  width:85px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:#25292B;
+  color: white;
+}
+
+.phone{
+  width:200px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: 0;
+  background-color:#25292B;
+  color: white;
+}
+
+.but{
+      color: white ;
+      font-size: 18px;
+      margin: 15px;
+}
+.package{
+  outline: 0;
+  width:200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:#25292B;
+  color: white;
+}
+.butt{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 30px;
+  border-radius:20px;
+  outline:none;
+  background-color: #ff0000;
+  border:none;
+  opacity:0.7;
+  color: White;
+  font-size: 18px;
+
+}
+.h1-form{
+  margin-bottom: 0;
+}
+
+/**/

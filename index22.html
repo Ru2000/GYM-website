@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style media="screen">
+      @import url('https://fontsgooglepis.com/css?family=Roboto:400,700&subset=cyrillic');
+      *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto',sans-serif;
+      }
+      .faq-block{
+      padding-bottom: 25px;
+      }
+      #faq{
+      width: 50rem;
+      text-align: left;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: 10vh;
+      }
+      .label-1{
+      padding: 5px 10px;
+      position: relative;
+      z-index: 20;
+      display: block;
+      height: 3rem;
+      cursor: pointer;
+      cursor: #fff;
+      border-radius: 3px;
+      line-height: 40px;
+      font-size: 16px;
+      color: white;
+      background-color:#44000d;
+
+      }
+
+      .h1-for-fac-1{
+        color: #c93838;
+        background-color: rgba(0,0,0,0.5) ;
+        text-align: center;
+        font-size: 5rem;
+        margin: 10px auto;
+      }
+
+
+      body{
+        background: rgba(0,0,0,0.8);
+        margin: 0;
+        background-image: url("https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/dumbbell-press-bench-man-workout-1109.jpg?itok=ux3_zLyy");
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+
+      .label-1:hover{
+                   background-color: Grey;
+                 }
+
+      input:checked + label,
+      input:checked + label:hover{
+                background-color: #25292B;
+                 color: #fff;
+      	border-bottom-left-radius: 0px;
+      	border-bottom-right-radius: 0px;
+      	}
+      input{
+      	display: none;
+      }
+      article{
+      background-color: grey;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      margin-top: -2px;
+      overflow: hidden;
+      height: 0;
+      position: relative;
+      z-index: 10;
+      transition: height 0.3s ease;
+      display: flex;
+      align-items: center;
+      }
+
+
+      .p-1{
+      color: #fff;
+      line-height: 23px;
+      font-size: 16px;
+      padding: 20px;
+      }
+      input:checked ~ article{
+        transition: height 0.3s ease;
+      }
+      input:checked ~ article.ac-small{
+          height: 100px;
+      }
+      input:checked ~ article.ac-medium{
+          height: 200px;
+      }
+      input:checked ~ article.ac-large{
+          height: 380px;
+      }
+
+      span{
+    		font-size: 25px;
+    		font-family: cursive;
+    		color: white;
+      }
+
+      .main_footer{
+        background: #232423;
+        height:400px;
+        width: 100%;
+        position:absolute;
+        top: 90%;
+        left: 0;
+        right:0;
+        bottom:0%;
+        margin-bottom: 0;
+      }
+      .first_section{
+        width: 35%;
+        height: 100%;
+        float: left;
+        /*background: red;*/
+
+      }
+/*css for footer*/
+
+      .second_section{
+        width: 25%;
+        height: 100%;
+        float: left;
+
+      }
+
+      .third_section{
+        width: 35%;
+        height: 100%;
+        float: left;
+
+
+      }
+      .second_section .ul-sec .li-sec{
+        list-style: none;
+      }
+
+      .second_section .ul-sec .li-sec a{
+        text-decoration:none;
+        font-size: 18px;
+        color: white;
+        letter-spacing: 2px;
+
+      }
+      .second_section .ul-sec .li-sec a:hover{
+        color: red;
+        letter-spacing: 2px;
+
+      }
+      .copyright{
+        background-color: rgba(0,0,0,7);
+      }
+
+      .social_links_ul li{
+        display: inline-block;
+        color: white;
+        font-size: 22px;
+        position: relative;
+        bottom: 20px;
+        margin-left: 10px
+
+      }
+
+        .social_links_ul li:hover{
+          color: red;
+        }
+
+
+    </style>
+  </head>
+  <body>
+  </section>
+    <h1 class="h1-for-fac-1">FAQ</h1>
+  <section id="faq">
+  <div class="faq-block">
+    <input id="ac-1"  type="checkbox">
+    <label class="label-1" for="ac-1">WHAT IS THE BASICS AND FOUNDATIONS IN TERMS OF TYPE OF TRAINING?</label>
+    <article class="ac-medium">
+      <p class="p-1">The definition of this training is stated as "constantly varied functional movement performed at high intensity" what this basically means is that the workouts are function in nature, real life movements which are mimicked in the gym and a movement that helps move a heavy load through a long distance in the shortest time. Constantly varied as in the workouts are different every day and target a different energy system and body part so to shock the body continuously to give better results. High intensity is basically the total power output of the workout.</p>
+    </article>
+  </div>
+  <div class="faq-block">
+    <input id="ac-2"  type="checkbox">
+    <label class="label-1"for="ac-2">WHAT IF I CANNOT TRAIN AT THE BOX?</label>
+    <article class="ac-small">
+      <p class="p-1">We also have something called as travel WODs which is basically for all the propel travelling for work and holiday and do not have access to a gym. It's all based in free hand and body weight movements. Just carry a skipping rope with you.</p>
+    </article>
+    </div>
+    <div class="faq-block">
+      <input id="ac-4"  type="checkbox">
+      <label class="label-1"for="ac-4">WHAT HAPPENS IN REGULAR CLASS?</label>
+      <article class="ac-medium">
+        <p class="p-1">The regular class lasts for about an hour. Some people usually come in a little bit early to get some extra warm up and mobility done. How ever it's not a compulsion for you to come early. The class starts sharp at the hour and the first 10 mins are kept aside for stretching and warming up. The next 10mins are for explaining Te WOD and warming up for the main WOD. Usually we start with 10-15 mins of stretch or skill work followed by some sort of high intensity interval Circut work. The workout finished off with 5mina of cool down while doing a dynamic breathing exercise and then clearing up the floor for the next class to come in.</p>
+      </article>
+      </div>
+      <div class="faq-block">
+        <input id="ac-5"  type="checkbox">
+        <label class="label-1"for="ac-5">HOW OFTEN SHOULD I TRAIN ?</label>
+        <article class="ac-medium">
+          <p class="p-1">This depends on your goal but to start off with I would suggest you train 5 days a week so that you are very familiar with the form and technique. We usually work from monday to Friday but once you have reached a level when you do not need my supervision you can come in for the open gym hours on the weekend. You can always do a 3 days on and 1 day off then again a 2 days on.
+Let your body speak to you, it will never lie.
+</p>
+        </article>
+        </div>
+      <div class="faq-block">
+          <input id="ac-6"  type="checkbox">
+          <label class="label-1"for="ac-6">WHAT TO BRING WHILE COMING TO GYM?</label>
+          <article class="ac-small">
+            <p class="p-1">Towel, shoes for you to change at the box and water.</p>
+          </article>
+      </div>
+
+  </section>
+
+  <footer>
+        <div class="main_footer" >
+          <div class="footer_wrapper">
+
+              <div class="second_section">
+                  <h1 style="color: white; padding-left:10px" > Quick links</h1>
+                  <ul class="ul-sec" style="padding-left:60px;padding-top:10px;">
+                    <li class="li-sec"><a href="index.html">Home</a></li><br>
+                    <li class="li-sec"><a href="index21.html#membership">Membership</a></li><br>
+                    <li class="li-sec"><a href="form1.php"> Register</a></li><br>
+                    <li class="li-sec"><a href="index22.html">FAQ</a></li><br>
+                    <li class="li-sec"><a href="">Social Links</a></li><br>
+                  </ul>
+                  <ul class="social_links_ul">
+                    <li><li><i class="fa fa-whatsapp" ></i></li></li>
+                    <li><li><i class="fa fa-facebook" ></i></li></li>
+                    <li><li><i class="fa fa-youtube" ></i></li></li>
+                    <li><li><i class="fa fa-twitter" ></i></i></li></li>
+                  </ul>
+
+              </div>
+              <div class="third_section">
+                <h1 style="color:white;padding-bottom:10px;">Contact us</h1>
+                  <div style="color:white; padding-bottom:10px;">B-1304, Landmark towers, OPP wadala telephone exchange</div>
+
+                  <div style="color:white; padding-bottom:10px;">Naigoan, Dadar-East 400014</div>
+                  <div style="color:white; padding-bottom:10px;">Phone:+91 123456767</div>
+                  <div style="color:white; padding-bottom:10px;">Email:info@example.com</div>
+              </div>
+
+              <div class="first_section">
+                <h1 style="color:white;margin-left:40px;">
+                  Location
+                </h1>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.177443791835!2d72.84507031437586!3d19.01190105892583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfc9a46499f0f%3A0x83e2394a1b26cf13!2sFitness%20World%20Mumbai%20Store!5e0!3m2!1sen!2sin!4v1570109008967!5m2!1sen!2sin" width="550" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+              </div>
+          </div>
+        </div>
+          <div class="copyright" style="position:absolute; top:130%; width:100%; left:0;right: 0; bottom:0; color:white;">
+            <p style="text-align:center">"All rights reserved" is a copyright formality indicating that the
+               copyright holder reserves, or holds for its own use, all the rights provided by copyright law.<br /> Originating in the Buenos Aires Convention of 1910, it is unclear
+               if it has any legal effect in any jurisdiction<br />&copy All right reserved 2019 | Hrithik Gaikwad |Rutuja Avhad<br /></p>
+          </div>
+
+    </footer>
+
+  </body>
+</html>

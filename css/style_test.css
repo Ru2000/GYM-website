@@ -1,0 +1,381 @@
+/*========Main Body============*/
+
+
+
+.h1-for-img-1{
+  position: absolute;;
+  top:8px;
+  left:2%;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+}
+.h1-for-img-1::before{
+
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.h1-for-fac-1{
+  color: #c93838;
+  background-color: black;
+  text-align: center;
+  font-size: 5rem;
+  margin: 10px auto;
+}
+
+.div-on-fac-1{
+  margin: 20px;
+  background-color:black;
+}
+
+
+
+body,html {
+
+  height: 100%;
+  font-family: Verdana, sans-serif;
+  background-color: #232325;
+}
+.body-margin{
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+
+
+/*===================================================================For navigation bar=======================================================================*/
+.navbar {
+  overflow: hidden;
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.navbar .li-1-a{
+  float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 30px 20px;
+text-decoration: none;
+font-size: 1.5rem;
+
+}
+.navbar .li-1-a:hover {
+  background:black:;
+  color: grey;
+}
+/*==============================Registor on navigation bar css code=============================================*/
+.active-register-1{
+  background-color: #c93838;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/*========================Section 1 code=======================*/
+.hike-1{
+
+  margin-bottom: 100px;
+}
+
+
+/*========================EDit the code for background blurrys============================================================*/
+
+
+.bg-image-1{
+  /* The image used */
+  background-image: url("C:/Users/Hrithik/Desktop/GYM/My_Gym/img/main/home-banner.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 80%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px  ;
+  position: absolute;
+  top: 7.2px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+/****************************************************************************For slideshow***********************************************************************/
+
+
+
+
+.mySlides {
+  display: none
+}
+.image-slideshow {
+  vertical-align: middle;
+  width: 140%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%)
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 72%;
+  position: relative;
+  margin: 30px 30px 30px 0;
+}
+
+
+/* Next & previous buttons */
+.prev-1, .next-1 {
+  cursor: pointer;
+position: absolute;
+top: 8px;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 1.2rem;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.next-1{
+  right:-40%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-1:hover, .next-1:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.image-container-for-ss-1 {
+
+  text-align: center;
+  color: white;
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext-1 {
+  color: #f2f2f2;
+  font-size: 1rem;
+  padding: 8px 12px;
+
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot-1{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 80%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active-1, .dot-1:hover {
+  background-color: #717171;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 600px) {
+  .prev-1, .next-1,.text-on-img-1 {font-size: 25px}
+}
+/*=======================================================next code==============================================================*/
+.about-us-1{
+  text-align: center;
+  color: #c93838;
+  font-size: 2.5rem;
+}
+.para-1-abus-1{
+  width:40%;
+  margin: auto;
+  font-size: 1.33rem;
+  color:white;
+}
+
+.about-us-div-1{
+  margin: 50px auto;
+}
+
+
+
+
+
+/*=====================================Trainers=============================== -------------------------------------------*/
+#trainers{
+    background: #1E2123;
+
+}
+
+.title
+{
+    font-size: 2.6rem;
+    margin: 50px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    color: #fff;
+}
+.title:after
+{
+    font-size: 22px;
+    color: #EE6059;
+    position: absolute;
+    left: 50%;
+    top: 20.8px;
+    transform: translate(-50%, -50%);
+}
+
+.row-t
+{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 70px;
+}
+.trainers-col
+{
+    flex: 1;
+    text-align: center;
+    margin: 100px 20px;
+    margin-top: 0;
+    background: #25292B;
+    color: #fff;
+
+}
+.trainers-img img
+{
+    width: 100%;
+}
+.trainers-text
+{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px auto;
+}
+.trainers-text-2
+{
+    color: #747474;
+    line-height: 30px;
+}
+.trainers-down
+{
+    padding: 15px;
+}
+.trainers-social
+{
+    margin: 40px auto 30px;
+    padding: 15px;
+}
+.trainers-social .fa
+{
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    padding-top: 10px;
+    color: #fff;
+    background: #1E2123;
+    margin: 0 5px;
+}
+.trainers-social .fa:hover
+{
+    color: #EE6059;
+}
+/*============================================================faculty==============================================*/
+.row-for-fac-1  {
+  display: flex;
+  background-color: #25292B;
+  padding: 5px
+}
+
+/* Create three equal columns that sits next to each other */
+.column-for-fac-1{
+  flex: 5.33p;
+  padding: 5px;
+
+}
+
+
+.img-for-fa{
+  width:100%
+
+}
+.hike-on-fa-4{
+    background-color:#1E2123;
+}
+
+
+@media only screen and (min-width: 00px) {
+      body{
+        width:50;
+      }
+  }
+}
